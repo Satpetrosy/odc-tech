@@ -1,6 +1,67 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 
 /* ==========================================================================
+Background Animation
+========================================================================== */
+@keyframes panning {
+    0% {
+      background-position: 0% 0%;
+    }
+    25% {
+      background-position: 100% 100%;
+    }
+     50% {
+      background-position: 100% 0%;
+    }
+    75% {
+      background-position: 0 100%;
+    }
+    200% {
+      background-position: 0 0;
+    }
+}
+  
+ .bkg-animation {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(100,181,246 ,1), rgba(0,0,0,0.8)), url("../img/sliders/tech-1283_1920.jpg");
+    background-size: 200%;
+    animation: panning 50s infinite linear;
+ }
+  
+ .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    z-index: 10;
+    background: fixed;
+ }
+  
+  
+ html, body {
+    height: 100%;
+ }
+
+
+
+ .fixed_background{
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   -webkit-background-size: cover;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   padding: 60px 0;
+   text-align: center;
+   margin-top: 2px;
+ }
+
+/* ==========================================================================
 Global Styles
 ========================================================================== */
 body {
@@ -35,7 +96,7 @@ h1 {
 
 h2 {
     font-size: 36px;
-    color: #ed7b59;
+    color: #fff;
     font-weight: 400;
     letter-spacing: 0.05em;
 }
@@ -67,7 +128,7 @@ h6 {
 
 p {
     font-size: 16px;
-    color: #000;
+    color: rgb(202, 202, 202);
     font-weight: 400;
 }
 
@@ -127,7 +188,7 @@ Buttons Styles
 }
 
 .btn-block {
-    background: #24242a;
+    background: #505052;
     padding: 15px 0;
     font-size: 16px;
     -moz-border-radius: 0;
@@ -196,15 +257,15 @@ Preloader Style
 Navigation Style
 ========================================================================== */
 .navbar-default {
-    background: #f5f5f594;
+    background: #3a587de6;
     margin-bottom: 0;
     border: none;
-    padding-bottom: 18px;
+    padding-bottom: 8px;
 }
 
 .navbar-default .navbar-header {
     width: 28%;
-    padding-right: 15px;
+    padding-right: 55px;
 }
 
 .navbar-default .nav-wrap {
@@ -421,7 +482,7 @@ Services Style
 ========================================================================== */
 #services {
     background: #18385f;
-    padding: 60px 0;
+    padding: 100px 0 100px;
     text-align: center;
 }
 
@@ -431,7 +492,7 @@ Services Style
 }
 
 #services p {
-    color: #fff;
+    color: rgb(202, 202, 202);
 }
 
 #services .services-box {
@@ -653,7 +714,7 @@ Fun Facts Style
 About Us Style
 ========================================================================== */
 #about {
-    padding: 60px 0;
+    padding: 100px 0 100px;
     text-align: center;
 }
 
@@ -702,7 +763,6 @@ About Us Style
 Testimonials Style
 ========================================================================== */
 #testimonials {
-    background-image: url("../img/testimonials/testimonials.jpg");
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
@@ -710,17 +770,17 @@ Testimonials Style
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 60px 0;
+    padding: 100px 0 100px;
     text-align: center;
 }
 
 #testimonials h2 {
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
 }
 
 #testimonials p {
-    color: #000;
+    color: rgb(202, 202, 202);
 }
 
 #testimonials .item .quote {
@@ -731,23 +791,23 @@ Testimonials Style
 #testimonials .item .quote .right {
     margin-left: 40px;
     font-size: 32px;
-    color: #000;
+    color: #fff;
 }
 
 #testimonials .item .quote .left {
     float: left;
     margin-right: 40px;
-    color: #000;
+    color: #fff;
 }
 
 #testimonials .item h5 {
-    color: #000;
+    color: #fff;
     line-height: 36px;
 }
 
 #testimonials .item h4 {
     text-align: right;
-    color: #000;
+    color: #fff;
     line-height: 36px;
 }
 
@@ -757,11 +817,11 @@ Testimonials Style
 }
 
 #testimonials .owl-pagination .owl-page.active span {
-    background-color: #000;
+    background-color: #fff;
 }
 
 #testimonials .owl-pagination .owl-page span {
-    border: 2px solid #000;
+    border: 2px solid #fff;
     border-radius: 50%;
     background: transparent;
     opacity: 1;
@@ -819,6 +879,7 @@ career
     border-radius: 8px;
     border: 1px solid gray;
     margin-bottom: 20px;
+    background-color: rgb(226, 226, 226);
 }
 
 .item1:hover {
@@ -972,10 +1033,8 @@ footer .row {
 }
 
 .jumbotron {
-    background-color: #8fb1d8ed; /* For browsers that do not support gradients */
-    background-image: linear-gradient( #3c5e85ed, #4d6f97ed, #3e5b6a);
-    box-shadow: 10px 10px 5px grey;
-   
+    background-color: #18385f; /* For browsers that do not support gradients */
+    background-image: #18385f;
 }
 
 
