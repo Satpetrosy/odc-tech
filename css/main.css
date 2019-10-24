@@ -398,6 +398,7 @@ Sliders Style
     text-align: center;
     width: 100%;
     bottom: 5%;
+    z-index: 20;
 }
 
 #owl-hero .owl-pagination .owl-page.active span {

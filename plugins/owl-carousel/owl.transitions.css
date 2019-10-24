@@ -34,6 +34,7 @@
   -webkit-animation: backSlideIn 1s both ease;
   -moz-animation: backSlideIn 1s both ease;
   animation: backSlideIn 1s both ease;
+  
 }
 /* goDown */
 .owl-goDown-out {
