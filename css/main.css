@@ -126,10 +126,21 @@ h6 {
     letter-spacing: 0.05em;
 }
 
-p {
+#welcome p {
     font-size: 16px;
     color: rgb(202, 202, 202);
     font-weight: 400;
+    width: 80%;
+    margin: auto;
+}
+
+
+em {
+    font-size: 16px;
+    color: rgb(202, 202, 202);
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
 }
 
 /* ==========================================================================
@@ -311,7 +322,7 @@ Navigation Style
 }
 
 .top-nav-collapse {
-    background: #3c5e85ed;
+    background: #3c5e85;
 }
 
 .top-nav-collapse .navbar-brand {
@@ -343,9 +354,7 @@ Navigation Style
 Sliders Style
 ========================================================================== */
 
-#owl-hero .opacity{
-    ba
-}
+
 #owl-hero {
     overflow: hidden;
 }
@@ -482,7 +491,7 @@ Welcome Style
 Services Style
 ========================================================================== */
 #services {
-    background: #18385f;
+    background: #5c7ca3;
     padding: 100px 0 100px;
     text-align: center;
 }
