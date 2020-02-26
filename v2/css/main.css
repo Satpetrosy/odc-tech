@@ -48,7 +48,7 @@ Background Animation
 
 
 
- .fixed_background{
+ .fixed_background {
    -moz-background-size: cover;
    -o-background-size: cover;
    -webkit-background-size: cover;
@@ -59,8 +59,14 @@ Background Animation
    padding: 60px 0;
    text-align: center;
    margin-top: 2px;
+   margin-top: 115px;
+   margin-bottom: 115px;
+  
  }
 
+
+ 
+ 
 /* ==========================================================================
 Global Styles
 ========================================================================== */
@@ -73,7 +79,7 @@ body {
 
 .sep {
     max-width: 387px;
-    border: 2px solid #18385f;;
+    border: 1px solid #ed7b59;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -88,15 +94,17 @@ body {
 Typography
 ========================================================================== */
 h1 {
-    font-size: 72px;
+    font-size: 32px;
     color: #fff;
     font-weight: 300;
     letter-spacing: 0.16em;
+    width: 71%;
+    margin: auto;
 }
 
 h2 {
     font-size: 36px;
-    color: #fff;
+    color: #ed7b59;
     font-weight: 400;
     letter-spacing: 0.05em;
 }
@@ -124,6 +132,7 @@ h6 {
     color: #000;
     font-weight: 400;
     letter-spacing: 0.05em;
+    margin-bottom: 52px;
 }
 
 #welcome p {
@@ -268,7 +277,7 @@ Preloader Style
 Navigation Style
 ========================================================================== */
 .navbar-default {
-    background: #3a587de6;
+    background: #ffff;
     margin-bottom: 0;
     border: none;
     padding-bottom: 8px;
@@ -284,7 +293,7 @@ Navigation Style
 }
 
 .navbar-default .nav > li > a {
-    font-size: 14px;
+    font-size: 18px;
     color: #ed7b59;
     font-weight: 700;
     text-transform: uppercase;
@@ -298,6 +307,16 @@ Navigation Style
 .navbar-default .nav > li > a:hover {
     color: #a3a3a3;
 
+}
+
+li{
+    list-style: none;
+    color: #030303;
+}
+
+hr{
+    background-color: #ed7b59;
+    height: 1px;
 }
 
 .navbar-default .nav > li > a:focus,
@@ -397,9 +416,12 @@ Sliders Style
 
 #owl-hero .item .caption h6 {
     font-size: 24px;
-    color: #fff;
+    color: #ed7b59;
     margin: 0;
+  
 }
+
+
 
 #owl-hero .owl-pagination {
     position: absolute;
@@ -491,18 +513,19 @@ Welcome Style
 Services Style
 ========================================================================== */
 #services {
-    background: #5c7ca3;
+    background: #ffffff;
     padding: 100px 0 100px;
     text-align: center;
 }
 
 #services h2 {
     text-transform: uppercase;
-    color: #fff;
+    color: #ed7b59;
 }
 
 #services p {
-    color: rgb(202, 202, 202);
+    /* color: rgb(202, 202, 202); */
+    color:#ed7b59;
 }
 
 #services .services-box {
@@ -539,7 +562,7 @@ Services Style
 #services .services-box .col-lg-4 .media-right span,
 #services .services-box .col-lg-4 .media-body span {
     font-size: 36px;
-    color: #fff;
+    color: #ed7b59;
 }
 
 #services .services-box .col-md-6 {
@@ -563,7 +586,7 @@ Services Style
 #services .services-box .col-md-6 .media-right h3,
 #services .services-box .col-md-6 .media-body h3 {
     text-transform: uppercase;
-    color: #fff;
+    color: #ed7b59;
     font-size: 20px;
     text-align: left;
 }
@@ -572,7 +595,7 @@ Services Style
 #services .services-box .col-md-6 .media-right span,
 #services .services-box .col-md-6 .media-body span {
     font-size: 36px;
-    color: #fff;
+    color: #ed7b59;
 }
 
 /* ==========================================================================
@@ -744,7 +767,7 @@ About Us Style
 }
 
 #about .about p {
-    color: #fff;
+    color: #f6e9e9;
     line-height: 219%;
 }
 
@@ -1043,7 +1066,7 @@ footer .row {
 }
 
 .jumbotron {
-    background-color: #18385f; /* For browsers that do not support gradients */
+    background-color: #25282c;; /* For browsers that do not support gradients */
     background-image: #18385f;
 }
 
