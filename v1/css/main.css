@@ -48,7 +48,11 @@ Background Animation
 
 
 
+<<<<<<< HEAD
  .fixed_background{
+=======
+ .fixed_background {
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
    -moz-background-size: cover;
    -o-background-size: cover;
    -webkit-background-size: cover;
@@ -59,8 +63,19 @@ Background Animation
    padding: 60px 0;
    text-align: center;
    margin-top: 2px;
+<<<<<<< HEAD
  }
 
+=======
+   margin-top: 115px;
+   margin-bottom: 115px;
+  
+ }
+
+
+ 
+ 
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
 /* ==========================================================================
 Global Styles
 ========================================================================== */
@@ -73,7 +88,11 @@ body {
 
 .sep {
     max-width: 387px;
+<<<<<<< HEAD
     border: 2px solid #18385f;;
+=======
+    border: 1px solid #ed7b59;
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -87,6 +106,7 @@ body {
 /* ==========================================================================
 Typography
 ========================================================================== */
+<<<<<<< HEAD
 
 
 li{
@@ -96,6 +116,8 @@ li{
 
 
 
+=======
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
 h1 {
     font-size: 32px;
     color: #fff;
@@ -107,12 +129,17 @@ h1 {
 
 h2 {
     font-size: 36px;
+<<<<<<< HEAD
     color: #fff;
+=======
+    color: #ed7b59;
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
     font-weight: 400;
     letter-spacing: 0.05em;
 }
 
 h3 {
+<<<<<<< HEAD
     text-transform: uppercase;
     color: #fff;
     font-size: 20px;
@@ -131,6 +158,13 @@ h3 {
 
 
 
+=======
+    font-size: 26px;
+    color: #000;
+    font-weight: 400;
+}
+
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
 h4 {
     font-size: 24px;
     color: #000;
@@ -148,6 +182,10 @@ h6 {
     color: #000;
     font-weight: 400;
     letter-spacing: 0.05em;
+<<<<<<< HEAD
+=======
+    margin-bottom: 52px;
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
 }
 
 #welcome p {
@@ -292,7 +330,11 @@ Preloader Style
 Navigation Style
 ========================================================================== */
 .navbar-default {
+<<<<<<< HEAD
     background: #3a587de6;
+=======
+    background: #ffff;
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
     margin-bottom: 0;
     border: none;
     padding-bottom: 8px;
@@ -308,7 +350,11 @@ Navigation Style
 }
 
 .navbar-default .nav > li > a {
+<<<<<<< HEAD
     font-size: 14px;
+=======
+    font-size: 18px;
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
     color: #ed7b59;
     font-weight: 700;
     text-transform: uppercase;
@@ -324,6 +370,19 @@ Navigation Style
 
 }
 
+<<<<<<< HEAD
+=======
+li{
+    list-style: none;
+    color: #030303;
+}
+
+hr{
+    background-color: #ed7b59;
+    height: 1px;
+}
+
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
 .navbar-default .nav > li > a:focus,
 .navbar-default .nav > li > a:active {
     color: #eee;
@@ -421,10 +480,20 @@ Sliders Style
 
 #owl-hero .item .caption h6 {
     font-size: 24px;
+<<<<<<< HEAD
     color: #fff;
     margin: 0;
 }
 
+=======
+    color: #ed7b59;
+    margin: 0;
+  
+}
+
+
+
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
 #owl-hero .owl-pagination {
     position: absolute;
     display: block;
@@ -515,18 +584,31 @@ Welcome Style
 Services Style
 ========================================================================== */
 #services {
+<<<<<<< HEAD
     background: #5c7ca3;
+=======
+    background: #ffffff;
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
     padding: 100px 0 100px;
     text-align: center;
 }
 
 #services h2 {
     text-transform: uppercase;
+<<<<<<< HEAD
     color: #fff;
 }
 
 #services p {
     color: rgb(202, 202, 202);
+=======
+    color: #ed7b59;
+}
+
+#services p {
+    /* color: rgb(202, 202, 202); */
+    color:#ed7b59;
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
 }
 
 #services .services-box {
@@ -537,13 +619,20 @@ Services Style
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 #services .services-box .media-left,
 #services .services-box  .media-right,
 #services .services-box .media-body {
+=======
+#services .services-box .col-lg-4 .media-left,
+#services .services-box .col-lg-4 .media-right,
+#services .services-box .col-lg-4 .media-body {
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
     padding-right: 10px;
     vertical-align: baseline;
 }
 
+<<<<<<< HEAD
 #services .services-box .media-left p,
 #services .services-box  .media-right p,
 #services .services-box .media-body p {
@@ -553,12 +642,24 @@ Services Style
 #services .services-box .media-left h3,
 #services .services-box .media-right h3,
 #services .services-box  .media-body h3 {
+=======
+#services .services-box .col-lg-4 .media-left p,
+#services .services-box .col-lg-4 .media-right p,
+#services .services-box .col-lg-4 .media-body p {
+    text-align: left;
+}
+
+#services .services-box .col-lg-4 .media-left h3,
+#services .services-box .col-lg-4 .media-right h3,
+#services .services-box .col-lg-4 .media-body h3 {
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
     text-transform: uppercase;
     color: #fff;
     font-size: 20px;
     text-align: left;
 }
 
+<<<<<<< HEAD
 #services .services-box  .media-left span,
 #services .services-box  .media-right span,
 #services .services-box  .media-body span {
@@ -588,10 +689,27 @@ Services Style
 #services .services-box  .media-left,
 #services .services-box  .media-right,
 #services .services-box  .media-body {
+=======
+#services .services-box .col-lg-4 .media-left span,
+#services .services-box .col-lg-4 .media-right span,
+#services .services-box .col-lg-4 .media-body span {
+    font-size: 36px;
+    color: #ed7b59;
+}
+
+#services .services-box .col-md-6 {
+    margin-bottom: 20px;
+}
+
+#services .services-box .col-md-6 .media-left,
+#services .services-box .col-md-6 .media-right,
+#services .services-box .col-md-6 .media-body {
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
     padding-right: 10px;
     vertical-align: baseline;
 }
 
+<<<<<<< HEAD
 #services .services-box  .media-left p,
 #services .services-box  .media-right p,
 #services .services-box  .media-body p {
@@ -603,15 +721,36 @@ Services Style
 #services .services-box  .media-body h3 {
     text-transform: uppercase;
     color: #fff;
+=======
+#services .services-box .col-md-6 .media-left p,
+#services .services-box .col-md-6 .media-right p,
+#services .services-box .col-md-6 .media-body p {
+    text-align: left;
+}
+
+#services .services-box .col-md-6 .media-left h3,
+#services .services-box .col-md-6 .media-right h3,
+#services .services-box .col-md-6 .media-body h3 {
+    text-transform: uppercase;
+    color: #ed7b59;
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
     font-size: 20px;
     text-align: left;
 }
 
+<<<<<<< HEAD
 #services .services-box  .media-left span,
 #services .services-box  .media-right span,
 #services .services-box  .media-body span {
     font-size: 36px;
     color: #fff;
+=======
+#services .services-box .col-md-6 .media-left span,
+#services .services-box .col-md-6 .media-right span,
+#services .services-box .col-md-6 .media-body span {
+    font-size: 36px;
+    color: #ed7b59;
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
 }
 
 /* ==========================================================================
@@ -629,9 +768,12 @@ Works Style
 #works p {
     margin-bottom: 40px;
 }
+<<<<<<< HEAD
 .container{
     width: 90%;
 }
+=======
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
 
 #works .container-fluid {
     padding-left: 0;
@@ -786,7 +928,11 @@ About Us Style
 }
 
 #about .about p {
+<<<<<<< HEAD
     color: #fff;
+=======
+    color: #f6e9e9;
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
     line-height: 219%;
 }
 
@@ -938,7 +1084,11 @@ career
     background-color: #24242a;
 }
 
+<<<<<<< HEAD
 .item1:hover > .row > p {
+=======
+.item1:hover > .row > .col-md-6 > p {
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
     color: #aaa;
 }
 
@@ -951,7 +1101,11 @@ career
     color: #9f8787;
 }
 
+<<<<<<< HEAD
 .disable > .row >  p {
+=======
+.disable > .row > .col-md-6 > p {
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
     color: #6c6464;
 }
 
@@ -959,7 +1113,11 @@ career
     background-color: #ccc;
 }
 
+<<<<<<< HEAD
 .disable:hover > .row > p {
+=======
+.disable:hover > .row > .col-md-6 > p {
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
     color: #6c6464;
     
 }
@@ -1085,15 +1243,22 @@ footer .row {
 }
 
 .jumbotron {
+<<<<<<< HEAD
     background-color: #18385f; /* For browsers that do not support gradients */
+=======
+    background-color: #25282c;; /* For browsers that do not support gradients */
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
     background-image: #18385f;
 }
 
 
+<<<<<<< HEAD
 .Development{
     display: flex;
 }
 
+=======
+>>>>>>> 7bffd6e698adccafe4b152512eec7ff06a09fcc0
 
 
 
