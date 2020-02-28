@@ -142,6 +142,7 @@ h3 {
     background-color: #3c5e85;
     margin-left: 25px;
     border-radius: 7px;
+    border: 1px solid white;
 }
 
 
@@ -319,8 +320,10 @@ Navigation Style
     margin-bottom: 0;
     border: none;
     padding-bottom: 8px;
-    border-bottom: 1.2px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
 }
+
+#welcome span { font-weight: bold }
 
 .navbar-default .navbar-header {
     width: 28%;
@@ -579,7 +582,8 @@ Welcome Style
     color: #fff;
     background-color: #3c5e85;
     padding: 44px 44px;
-    border-radius: 6px;
+    border-radius: 7px;
+    border: 1px solid white;
 }
 
 
@@ -602,6 +606,8 @@ Welcome Style
 .expertise{
     background-color: #3c5e85;
     padding: 34px;
+    border-radius: 7px;
+    border: 1px solid white;
 }
 
 
@@ -684,6 +690,7 @@ Services Style
     margin-top: 54px;
     padding-bottom: 42px;
     border-radius: 7px;
+    border: 1px solid white;
 }
 
 .development{
@@ -1197,6 +1204,7 @@ footer .row {
 .jumbotron {
     background-color: #3c5e85; /* For browsers that do not support gradients */
     background-image: #3c5e85;
+    border: 1px solid white;
 }
 
 
