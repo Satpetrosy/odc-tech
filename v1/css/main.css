@@ -123,6 +123,11 @@ h3 {
     color: #fff;
 }
 
+.services-box h3{
+    text-transform: none;
+}
+
+
 
 .development1 h3{
     text-transform: uppercase;
