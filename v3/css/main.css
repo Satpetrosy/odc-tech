@@ -132,14 +132,18 @@ h3 {
 .development1 h3{
     text-transform: uppercase;
     font-size: 20px;
-    margin-left: 10%;
+    margin-left: 2%;
     letter-spacing: 3px;
     margin-bottom: 26px;
 }
 
 .service-details span{
     font-size: 19px !important;
-    margin-right: 39px;
+    margin-right: 0px;
+}
+
+.day1{
+    padding-left: 0;
 }
 
 .development_border{
@@ -612,6 +616,7 @@ Welcome Style
     padding: 34px;
     border-radius: 7px;
     border: 1px solid white;
+    height: 361px;
 }
 
 
@@ -737,7 +742,7 @@ Services Style
 
 
 .development1 .media-right span{
-    padding-left: 84px
+    padding-left: 27px;
 }
 
 /* ==========================================================================
@@ -1195,6 +1200,7 @@ footer .row {
 .service-details {
     font-size: 14px;
     color: #fff;
+    padding-right: 33px;
     
 }
 
