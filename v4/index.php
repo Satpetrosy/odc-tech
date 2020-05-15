@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,9 +10,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/main.css" />
       <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,900&display=swap" rel="stylesheet">
-
+      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
-  <body>    
+  <body>
     <!-- First section -->
     <section id="infinite" class="text-white tm-font-big tm-parallax">
       <!-- Navigation -->
@@ -241,17 +242,31 @@
     
       <div class="container tm-container-contact">
         
-        <div class="row">
+        <div class="row" id="contactUs">
             
             <div class="text-center col-12 contactus-pad">
                 <h2 class="tm-section-title mb-4">Contact us</h2>
             </div>
             
             <div class="col-sm-12 col-md-6">
-              <form action="" method="get">
-                <input id="name" name="name" type="text" placeholder="Your Name" class="tm-input" required />
-                <input id="email" name="email" type="email" placeholder="Your Email" class="tm-input" required />
-                <textarea id="message" name="message" rows="8" placeholder="Message" class="tm-input" required></textarea>
+              <form action="contactUs.php" method="post">
+                  <?php
+                    if(isset($_SESSION['errors'])){
+                  ?>
+                  <ul>
+                      <?php foreach ($_SESSION['errors'] as $error){ ?>
+                      <li><?php echo $error; ?> </li>
+                      <?php }
+                        session_destroy();
+                      ?>
+                  </ul>
+                  <?php
+                    }
+                  ?>
+                <input id="name" name="name" value="<?php echo isset($_SESSION['request_data']['name']) ? $_SESSION['request_data']['name'] : '' ?>" type="text" placeholder="Your Name" class="tm-input" required />
+                <input id="email" name="email" value="<?php echo isset($_SESSION['request_data']['email']) ? $_SESSION['request_data']['email'] : '' ?>" type="email" placeholder="Your Email" class="tm-input" required />
+                <textarea id="message" name="message" rows="8" placeholder="Message" class="tm-input" required><?php echo isset($_SESSION['request_data']['message']) ? $_SESSION['request_data']['message'] : '' ?></textarea>
+                <div class="g-recaptcha" data-sitekey="6LcgZ_cUAAAAAKll23Z5aq836rdNTzoYmp8yju8S"></div>
                 <button type="submit" class="btn tm-btn-submit">Submit</button>
               </form>
             </div>
